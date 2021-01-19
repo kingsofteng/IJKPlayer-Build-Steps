@@ -32,10 +32,12 @@ vim ios/tools/do-compile-ffmpeg.sh
 add FFMPEG_CFG_FLAGS_ARM="$FFMPEG_CFG_FLAGS_ARM --disable-asm"
 
  # armv7, armv7s, arm64
+ 
  FFMPEG_CFG_FLAGS_ARM=
  FFMPEG_CFG_FLAGS_ARM="$FFMPEG_CFG_FLAGS_ARM --enable-pic"
  FFMPEG_CFG_FLAGS_ARM="$FFMPEG_CFG_FLAGS_ARM --enable-neon"
  FFMPEG_CFG_FLAGS_ARM="$FFMPEG_CFG_FLAGS_ARM --disable-asm"
+ 
 -------------------------------------
 
 2. Package the static library IJKMediaFramework
